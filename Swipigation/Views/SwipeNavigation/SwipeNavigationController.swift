@@ -113,7 +113,6 @@ extension SwipeNavigationController: UIScrollViewDelegate {
         let normalizedOffset = (scrollView.contentOffset.x - view.frame.width) / view.frame.width
         let fullNormalizedOffset = (normalizedOffset + CGFloat(menuController.currentItemIndex)) / CGFloat(menuController.menuItems.count - 1)
         
-//        print(normalizedOffset, fullNormalizedOffset)
         menuController.setMenuOffset(withFullNormalizedOffset: fullNormalizedOffset)
         menuController.setActiveIndicatorConstraints(withNormalizedOffset: normalizedOffset)
     }

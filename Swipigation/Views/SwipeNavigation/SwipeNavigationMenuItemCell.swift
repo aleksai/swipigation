@@ -26,7 +26,6 @@ class SwipeNavigationMenuItemCell: UICollectionViewCell {
         dot?.translatesAutoresizingMaskIntoConstraints = false
         dot?.layer.cornerRadius = kSwipeNavigationMenuItemDotSize / 2
         
-        
         label = UILabel()
         
         label?.translatesAutoresizingMaskIntoConstraints = false
